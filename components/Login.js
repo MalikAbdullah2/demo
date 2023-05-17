@@ -61,7 +61,7 @@ const Login = () => {
               onBlur={() => setIsFocused(false)}
             />
             <TouchableOpacity style={styles.loginButton}>
-              <Text style={styles.loginButtonText}>Login</Text>
+              <Text style={styles.loginButtonText}>LOGIN</Text>
             </TouchableOpacity>
           </View>
           </View>
@@ -127,18 +127,20 @@ const styles = StyleSheet.create({
   loginButton: {
     width: 170,
     height: 40,
-    backgroundColor: '#D2C7E5',
+    backgroundColor: 'transparent',
     borderRadius: 30,
-    borderWidth: 1,
+    borderWidth: 2,
     borderColor: 'white',
     justifyContent: 'center',
     alignItems: 'center',
     marginTop: 20,
+    
   },
   loginButtonText: {
     color: 'white',
-    fontSize: 25,
-    fontWeight: 500
+    fontSize: 20,
+    fontWeight: 700,
+    
     },
   });
 export default Login;

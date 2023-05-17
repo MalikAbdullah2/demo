@@ -20,7 +20,9 @@ const Welcome = () => {
             <Text style={styles.buttonText}>Login</Text>
             
           </TouchableOpacity>
-          <TouchableOpacity style={styles.button}>
+          <TouchableOpacity style={styles.button}
+          onPress={() => navigation.navigate('Logintwo')}
+          >
             <Text style={styles.buttonText}>LoginTwo</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.button}>
